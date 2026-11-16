@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Node & Frontend dependencies
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production Build Artifacts
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases & journals (telemetry runtime storage)
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*.pdf
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Test outputs & temporary reports
+reports_test/
+verification_results.json
+*.log
+
+# Legacy Streamlit backup
+frontend_backup/
+
+# Operating System & Editor caches
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
